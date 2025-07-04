@@ -1,0 +1,40 @@
+<svg width="360" height="100" viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 48px;
+      fill: #222;
+      filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.1));
+    }
+    .globe-circle {
+      fill: #f0f0f0;
+      stroke: #222;
+      stroke-width: 2;
+    }
+    .continent {
+      fill: #444;
+      stroke: #222;
+      stroke-width: 1;
+    }
+  </style>
+
+  <!-- Círculo do globo -->
+  <circle class="globe-circle" cx="50" cy="50" r="40"></circle>
+
+  <!-- Continentes estilizados simples -->
+  <!-- América do Sul -->
+  <path class="continent" d="M38 60 Q40 55 43 57 Q46 60 45 65 Q43 67 40 66 Z"></path>
+  <!-- América do Norte -->
+  <path class="continent" d="M40 40 Q43 35 47 37 Q50 40 49 45 Q45 48 42 46 Z"></path>
+  <!-- África -->
+  <path class="continent" d="M58 60 Q60 57 63 60 Q65 65 62 68 Q58 67 57 63 Z"></path>
+  <!-- Europa -->
+  <path class="continent" d="M57 45 Q60 43 62 45 Q63 48 61 49 Q58 48 57 46 Z"></path>
+  <!-- Ásia -->
+  <path class="continent" d="M65 40 Q68 35 72 37 Q74 42 71 46 Q67 46 66 43 Z"></path>
+
+  <!-- Texto -->
+  <text x="110" y="65" class="text">
+    Rodrigo
+  </text>
+</svg>
